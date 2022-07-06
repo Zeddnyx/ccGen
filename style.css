@@ -1,0 +1,62 @@
+body {
+    font-family: Lora, Sans-Serif;
+    src: url("https://fonts.googleapis.com/css?family=Lora");
+    font-size: 16px;  
+    background-color:  #1a1a1a;
+}
+fieldset {
+    font-size: 5px;
+    border-radius: 5px;
+    border-color: white;
+    padding: 16px;
+    
+}
+
+input {
+    border-color: transparent;
+    font-size: 25px;
+    background-color:  #1a1a1a;
+    color: white;
+}
+select {
+	font-size: 25px;
+	border-color: transparent;
+	background-color: #1a1a1a;
+	color: white;
+}
+
+#result {
+    border-style: groove;
+    width: 200px;
+    height: 400px;
+    border-color: white;
+    border-radius: 5px;
+}
+
+button {
+	font-size: 25px;
+    border-radius: 5px;
+    border-color: white;
+    background-color:  #1a1a1a;
+    position: relative;
+    color: white;
+    margin-left: 20px;
+} 
+
+legend {
+    font-family: Sans-Serif;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 0px;
+    margin-left: 16px;
+}
+
+textarea  {
+   background: transparent;
+   border-color: transparent;
+   color: white;
+   position: relative;
+   width: 450px;
+   height: 400px;
+   font-size: 20px;
+}

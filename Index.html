@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+ 	<head>
+ 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ 		<title>cc generator</title>
+ 	  	<link rel="stylesheet" href="style.css">
+    </head>
+ 	<body>
+ 	    <fieldset>
+            <legend>BIN</legend><br>
+            <input type="number" id="bin" placeholder="73735377272" required />
+        </fieldset><br>
+        
+        <fieldset>
+            <legend>MONTH</legend>
+            <select name="month" id="month">
+            	<option value="random">Random</option>
+            	<option value="01">January</option>
+            	<option value="02">February</option>
+            	<option value="03">March</option>
+            	<option value="04">April</option>
+            	<option value="05">May</option>
+            	<option value="06">June</option>
+            	<option value="07">July</option>
+            	<option value="08">August</option>
+            	<option value="09">September</option>
+            	<option value="10">October</option>
+            	<option value="11">November</option>
+            	<option value="12">December</option>
+            </select>
+        </fieldset><br>
+        
+        <fieldset>
+            <legend>YEAR</legend>
+            <select name="year" id="year">
+            	<option value="random">Random</option>
+            	<option value="2022">2022</option>
+            	<option value="2023">2023</option>
+            	<option value="2024">2024</option>
+            	<option value="2025">2025</option>
+            	<option value="2026">2026</option>
+            	<option value="2027">2027</option>
+            	<option value="2028">2028</option>
+            	<option value="2029">2029</option>
+            	<option value="2030">2030</option>
+            </select>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>CVV</legend><br>
+            <input type="number" id="cvv" placeholder="Leave blank to randomize"/>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>QUANTITY</legend>
+            <input type="number" id="quantity" required placeholder="10"/>
+        </fieldset><br><br>
+
+        <button type="submit" id="generate">Generate</button><br><br>
+        <fieldset>
+            <legend>RESULTS</legend>
+            <textarea id="results"></textarea>
+        </fieldset>
+       
+        <script type="text/javascript" src="index.js"></script> 
+ 	</body>
+</html>
